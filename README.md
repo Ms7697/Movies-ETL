@@ -17,9 +17,11 @@ The function takes the Wikipedia JSON, the Kaggle metadata and MovieLens csv fil
 We filtered out the TV shows, consolidated the redundant data, removed the duplicates and formatted the Wikipedia data.
 
 ### Extract and Transform the Kaggle and rating data
-Again, we consolidated the redundant data, removed the duplicates, formatted and grouped the data.
+We consolidated the redundant data again, removed the duplicates, formatted and grouped the data.
 The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.
 
 ### Load the data to a PostgreSQL Movie Database
+I was unable to connect to PostgreSQL local host. Currently working on to solve this issue.
 
 ## Summary
+Using the ETL function to add data to PostgreSQL from multiple sources to create an automated pipline for incomoming new data. To create dataset tables to be used for analysis.
